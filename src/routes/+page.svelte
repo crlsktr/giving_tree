@@ -4,8 +4,8 @@
 
 </script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 flex flex-col items-center">
+<div class="container min-h-full mx-auto flex justify-center items-center">
+	<div class="space-y-20 flex flex-col items-center">
 		
 		<figure>
 			<section class="img-bg" />
