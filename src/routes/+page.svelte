@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { coordinatorPhoneNumber, presentList, signupMessage, welcomeMessage } from "$lib";
+	import { coordinatorEmail, coordinatorPhoneNumber, presentList, signupEmailSubject, signupMessage, welcomeMessage } from "$lib";
 	import { Accordion, AccordionItem, TreeView, TreeViewItem } from "@skeletonlabs/skeleton";
 
 </script>
@@ -20,7 +20,7 @@
 				<svelte:fragment slot="content">
 					<div class="card text-center text-md flex flex-row place-content-between">
 						<span class="p-4">{present.details}</span>
-						<a class="btn btn-md variant-filled-primary" href="sms://{coordinatorPhoneNumber}?body={signupMessage + present.giftNumber}">I want to give this!</a>
+						<a class="btn btn-md variant-filled-primary" href="mailto://{coordinatorEmail}?body={signupMessage + present.giftNumber}&subject={signupEmailSubject}">I want to give this!</a>
 					</div>
 				</svelte:fragment>
 			</AccordionItem>
