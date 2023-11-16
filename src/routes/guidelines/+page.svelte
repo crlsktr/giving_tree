@@ -7,7 +7,7 @@
 	<header class="card-header">
 		<h2 class="h2 text-center text-secondary-500">Guidelines for providing gifts</h2>
 	</header>
-	<section class="p-4 text-xl">
+	<section class="p-6 px-8 text-xl">
 		<ul class="list-disc">
 			<li>gifts need to be turned in no later than Dec 18th</li>
 			<li>spend no more than ${amount} per gift</li>
