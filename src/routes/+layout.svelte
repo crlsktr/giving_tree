@@ -3,13 +3,14 @@
 	import '../app.postcss';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import { apptitle } from '$lib';
 </script>
 
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Giving Tree 2023</strong>
+				<strong class="text-xl uppercase">{apptitle}</strong>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
@@ -89,8 +90,9 @@
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter"
-		><span class="text-secondary-500">CC0-1.0 license</span></svelte:fragment
+	<svelte:fragment slot="footer">
+		<div class="text-right">Made with 🥰 using Svelte-kit and published as <span class="text-secondary-500 block">CC0-1.0 license</span></div>
+		</svelte:fragment
 	>
 	<!-- (footer) -->
 </AppShell>
