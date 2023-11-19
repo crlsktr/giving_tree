@@ -27,4 +27,4 @@ export const welcomeMessage: string =
 	'Help us make Christmas brighter for families in our community';
 export const coordinatorEmail: string = 'name@mail.com';
 export const giftDollarLimit: number = 50;
-export const apptitle: string = '12th Ward Neighborhood Giving Tree 2023';
+export const apptitle: string = '12th Ward Giving Tree 2023';
