@@ -91,9 +91,13 @@
 	<slot />
 	<!-- ---- / ---- -->
 	<svelte:fragment slot="footer">
-		<div class="text-right">Made with 🥰 using Svelte-kit and published as <span class="text-secondary-500 block">CC0-1.0 license</span></div>
-		</svelte:fragment
-	>
+		<div class="text-right">
+			Made with ❤️ using Svelte-kit and published under <a
+				class="text-secondary-500 inline"
+				href="https://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0 license</a
+			>
+		</div>
+	</svelte:fragment>
 	<!-- (footer) -->
 </AppShell>
 
