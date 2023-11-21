@@ -25,6 +25,6 @@ export const signupMessage: string =
 	'Hi%21%20I%20want%20to%20help%20out%20with%20this%20gift%21%0AMy%20Name%3A%0AMy%20Phone%20Number%3A%0AGift%20Number%3A';
 export const welcomeMessage: string =
 	'Help us make Christmas brighter for families in our community';
-export const coordinatorEmail: string = 'name@mail.com';
+export const coordinatorEmail: string = 'jorrigarcia@gmail.com';
 export const giftDollarLimit: number = 50;
 export const apptitle: string = '12th Ward Giving Tree 2023';
