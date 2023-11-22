@@ -50,7 +50,7 @@
 					</div>
 					<a
 						class="btn btn-md variant-filled-primary"
-						href="mailto://{coordinatorEmail}?body={signupMessage +
+						href="mailto:{coordinatorEmail}?body={signupMessage +
 							present.giftNumber}&subject={signupEmailSubject}">I want to give this!</a
 					>
 				</svelte:fragment>
