@@ -90,8 +90,8 @@
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="footer">
-		<div class="text-right">
+	<svelte:fragment slot="pageFooter">
+		<div class="text-right text-xs">
 			Made with ❤️ using Svelte-kit and published under <a
 				class="text-secondary-500 inline"
 				href="https://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0 license</a
