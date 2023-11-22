@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { assets } from '$app/paths';
 	import {
 		coordinatorEmail,
 		presentList,
@@ -13,7 +14,7 @@
 	<div class="min-w-full text-center relative">
 		<img
 			class="max-h-96 min-w-full object-none opacity-50"
-			src="https://images.unsplash.com/photo-1513297887119-d46091b24bfa?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			src="{assets}/firleaves.avif"
 			alt="evergreen branches"
 		/>
 		<h2 class="h2 centered-title bg-surface-900">{welcomeMessage}</h2>
