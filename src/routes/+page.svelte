@@ -20,7 +20,7 @@
 		<h2 class="h2 centered-title bg-surface-900">{welcomeMessage}</h2>
 	</div>
 </figure>
-<div class="container min-h-full flex flex-col">
+<div class="container flex flex-col">
 	<div class="p-6 text-center">
 		<p>Pick a gift from the list below and when you're ready, click on the <span class="text-primary-500">"I want to give this"</span> button. This will compose an email to Jorri. </p>
 		<p>Please fill it out with your personal details and send it. We're keeping track of the gifts by the code in the last line of the email, please don't change it 😁</p>
@@ -43,12 +43,21 @@
 					</svg></svelte:fragment
 				>
 				<svelte:fragment slot="summary"
-					><span class="text-center">{present.summary}</span></svelte:fragment
+					><span class="text-center">{present.summary} { present.options ? '(please choose one)': ''}</span></svelte:fragment
 				>
 				<svelte:fragment slot="content">
+					{#if !present.options}
 					<div class="card text-center text-md flex flex-row place-content-between">
 						<span class="p-4">{present.details}</span>
 					</div>
+					{:else}
+						{#each present.options as option}
+						<div class="card text-center text-md flex flex-row place-content-between">
+							<span class="p-4">{option}</span>
+						</div>
+						{/each}
+					{/if}
+
 					<a
 						class="btn btn-md variant-filled-primary"
 						href="mailto:{coordinatorEmail}?body={signupMessage +
