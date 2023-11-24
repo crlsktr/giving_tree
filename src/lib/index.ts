@@ -165,8 +165,8 @@ export const presentList: Gift[] = [
 		summary: 'Puramino Hypoallergenic Formula',
 		details: 'PLEASE NOTE this gift exceeds the $50 limit'
 	},
-	/*{ giftNumber: 'F3', summary: 'Baby toy', details: 'He is about 10 months old.' }
-];*/
+	/*{ giftNumber: 'F3', summary: 'Baby toy', details: 'He is about 10 months old.' }*/
+];
 
 export const coordinatorPhoneNumber: string = '+18887776666';
 export const signupEmailSubject: string = 'Giving Tree 2023';
