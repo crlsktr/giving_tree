@@ -155,11 +155,11 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Tennis shoes size men\'s 12 wide', 'New pillows for bed']
 	},
-	{
+	/*{
 		giftNumber: 'F1',
 		summary: 'Size 6 Diapers',
 		details: 'Huggies brand is preferred due to sensitive skin'
-	},
+	},*/
 	{
 		giftNumber: 'F2',
 		summary: 'Puramino Hypoallergenic Formula',
