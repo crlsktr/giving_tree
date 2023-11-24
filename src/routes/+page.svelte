@@ -21,14 +21,30 @@
 	</div>
 </figure>
 <div class="container flex flex-col">
-	<div class="p-6 text-center">
-		<p>Pick a gift from the list below and when you're ready, click on the <span class="text-primary-500">"I want to give this"</span> button. This will compose an email to Jorri. </p>
-		<p>Please fill it out with your personal details and send it. We're keeping track of the gifts by the code in the last line of the email, please don't change it 😁</p>
+	<div class="flex flex-row justify-center">
+		<div class="py-6 px-8">
+			<ol class="list-decimal">
+				<li>Browse the list of gifts below that are still needed below.</li>
+				<li>Click on any gift to see its details.</li>
+				<li>
+					When you're ready, click the <span class="text-primary-500">"I want to give this"</span> button
+					to claim the gift.
+				</li>
+				<li>
+					This will start an email to Sis. Jorri García. Fill it out with your details and send it.
+				</li>
+				<li>You will receive a reply confirming that you are signed up for the chosen gift.</li>
+			</ol>
+			<p class="py-10">Note: Please don't change the gift number in the last line of your email</p>
+		</div>
 	</div>
 	<hr />
 	<Accordion class="p-10 flex flex-col items-center">
 		{#each presentList as present, idx}
-			<AccordionItem class="border rounded-md w-full max-w-4xl border-tertiary-800 bg-surface-600" open={idx===0}>
+			<AccordionItem
+				class="border rounded-md w-full max-w-4xl border-tertiary-800 bg-surface-600"
+				open={idx === 0}
+			>
 				<svelte:fragment slot="lead"
 					><svg
 						width="15"
@@ -43,23 +59,26 @@
 					</svg></svelte:fragment
 				>
 				<svelte:fragment slot="summary"
-					><span class="text-center">{present.summary} { present.options ? '(please choose one)': ''}</span></svelte:fragment
+					><span class="text-center"
+						>{present.summary} {present.options ? '(please choose one)' : ''}</span
+					></svelte:fragment
 				>
 				<svelte:fragment slot="content">
 					{#if !present.options}
-					<div class="card text-center text-md flex flex-row place-content-between">
-						<span class="p-4">{present.details}</span>
-					</div>
+						<div class="card text-center text-md flex flex-row place-content-between">
+							<span class="p-4">{present.details}</span>
+						</div>
 					{:else}
 						{#each present.options as option}
-						<div class="card text-center text-md flex flex-row place-content-between">
-							<span class="p-4">{option}</span>
-						</div>
+							<div class="card text-center text-md flex flex-row place-content-between">
+								<span class="p-4">{option}</span>
+							</div>
 						{/each}
 					{/if}
 
 					<a
 						class="btn btn-md variant-filled-primary"
+						target="_blank"
 						href="mailto:{coordinatorEmail}?body={signupMessage +
 							present.giftNumber}&subject={signupEmailSubject}">I want to give this!</a
 					>
@@ -81,29 +100,7 @@
 		transform: translate(-50%, -50%);
 		@apply bg-primary-700/80 rounded-md;
 	}
-	div svg {
-		@apply fill-surface-50;
-	}
-	figure {
-		@apply flex relative flex-col;
-	}
-	@keyframes glow {
-		0% {
-			@apply bg-primary-500/70;
-		}
-		33% {
-			@apply bg-primary-700/70;
-		}
-		66% {
-			@apply bg-primary-700/70;
-		}
-		100% {
-			@apply bg-primary-500/70;
-		}
-	}
-	@keyframes pulse {
-		50% {
-			transform: scale(1.5);
-		}
+	li {
+		@apply mb-2;
 	}
 </style>
