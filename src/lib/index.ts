@@ -17,11 +17,11 @@ export const presentList: Gift[] = [
 		summary: 'Clothes for 10 year old boy',
 		details: 'He needs shirts and Levis. He wears size 10 shirts and size 10 slim pants.'
 	},
-	{
+	/*{
 		giftNumber: 'B3',
 		summary: 'Outfits for infant boy',
 		details: 'He wears size 2T and needs winter outfits and PJ'
-	},
+	},*/
 	{
 		giftNumber: 'B4',
 		summary: 'Baby toy',
@@ -57,11 +57,11 @@ export const presentList: Gift[] = [
 		summary: 'Toy for toddler girl',
 		details: 'She likes Minnie Mouse and Baby Shark.'
 	},
-	{
+	/*{
 		giftNumber: 'D4',
 		summary: 'Warm winter clothes for toddler girl',
 		details: 'She wears size 18 months and needs long-sleeved winter outfits.'
-	},
+	},*/
 	{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },
 	{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },
 	{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },
