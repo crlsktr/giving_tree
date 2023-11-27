@@ -24,7 +24,7 @@
 	<div class="flex flex-row justify-center">
 		<div class="py-6 px-8">
 			<ol class="list-decimal">
-				<li>Browse the list of gifts below that are still needed below.</li>
+				<li>Browse the list of gifts below that are still needed.</li>
 				<li>Click on any gift to see its details.</li>
 				<li>
 					When you're ready, click the <span class="text-primary-500">"I want to give this"</span> button
