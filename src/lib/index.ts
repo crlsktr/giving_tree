@@ -7,11 +7,11 @@ interface Gift {
 }
 
 export const presentList: Gift[] = [
-	{
+	/*{
 		giftNumber: 'B1',
 		summary: 'Book for 10 year old boy',
 		details: 'He would like a nonfiction book and is interested in astronomy and animals'
-	},
+	},*/
 	{
 		giftNumber: 'B2',
 		summary: 'Clothes for 10 year old boy',
@@ -64,7 +64,7 @@ export const presentList: Gift[] = [
 	},*/
 	{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },
 	{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },
-	{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },
+	/*{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },*/
 	{ giftNumber: 'D9', summary: 'Queen size comforter', details: 'Her favorite color is yellow.' },
 	{
 		giftNumber: 'E1',
@@ -81,12 +81,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Blue jean work pants size 34/34', 'any color long sleeve Carhartt shirt size XL']
 	},
-	{
+	/*{
 		giftNumber: 'E3',
 		summary: 'Snow globe OR Book',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Nativity snow globe', 'Book - "Heart to Heart" by Russell M Nelson']
-	},
+	},*/
 	{
 		giftNumber: 'E4',
 		summary: 'Food processor OR Heating pad',
@@ -99,12 +99,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ["Women's bike helmet", 'Twin size sheet set']
 	},
-	{
+	/*{
 		giftNumber: 'E7',
 		summary: 'Temple shoes OR Book ',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Temple shoes size 8', 'Book - "The Holy Covenants" by Anthony Sweat']
-	},
+	},*/
 	{ giftNumber: 'E8', summary: 'Womens Coat size M', details: 'No preferences' },
 	{
 		giftNumber: 'E9',
@@ -124,12 +124,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Book - "Under the Cover Mercy" by Rebecca Connolly', 'Ravenclaw scarf and beanie']
 	},
-	{
+	/*{
 		giftNumber: 'E12',
 		summary: 'Book OR Bed Sheets',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Book - "CNA Study Guide" by Dr. Andrew Stapleton', 'Full size sheet set']
-	},
+	},*/
 	{
 		giftNumber: 'E13',
 		summary: 'Gift card OR men\'s shirt',
