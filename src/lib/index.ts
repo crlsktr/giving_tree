@@ -52,11 +52,11 @@ export const presentList: Gift[] = [
 		details:
 			'He wears size 5/6 boys and needs shirts and pants. His favorite color is green and he likes Harry Potter, Fortnite, and Minecraft'
 	},
-	{
+	/*{
 		giftNumber: 'D3',
 		summary: 'Toy for toddler girl',
 		details: 'She likes Minnie Mouse and Baby Shark.'
-	},
+	},*/
 	/*{
 		giftNumber: 'D4',
 		summary: 'Warm winter clothes for toddler girl',
