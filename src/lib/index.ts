@@ -105,7 +105,7 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Temple shoes size 8', 'Book - "The Holy Covenants" by Anthony Sweat']
 	},*/
-	{ giftNumber: 'E8', summary: 'Womens Coat size M', details: 'No preferences' },
+	/*{ giftNumber: 'E8', summary: 'Womens Coat size M', details: 'No preferences' },*/
 	{
 		giftNumber: 'E9',
 		summary: 'Gift card OR Shoes',
