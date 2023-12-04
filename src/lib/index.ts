@@ -27,14 +27,14 @@ export const presentList: Gift[] = [
 		summary: 'Baby toy',
 		details: 'Sensory or learning toy for baby 6-12 months'
 	},
-	{ giftNumber: 'C1', summary: 'Boys snow pants size 12/14', details: 'No preferences' },
+	/*{ giftNumber: 'C1', summary: 'Boys snow pants size 12/14', details: 'No preferences' },*/
 	{ giftNumber: 'C2', summary: 'Toy for 8-year-old boy', details: 'He likes Pokemon and Legos' },
-	{ giftNumber: 'C3', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },
-	{
+	/*{ giftNumber: 'C3', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },*/
+	/*{
 		giftNumber: 'C4',
 		summary: 'Toy for 5-year-old girl',
 		details: 'She likes Pokemon, puzzles, and Nerf'
-	},
+	},*/
 	{ giftNumber: 'C5', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },
 	/*{
 		giftNumber: 'C6',
