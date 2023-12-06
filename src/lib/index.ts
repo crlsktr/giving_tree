@@ -75,12 +75,12 @@ export const presentList: Gift[] = [
 			'warm beanie and insulated work gloves'
 		]
 	},
-	{
+	/*{
 		giftNumber: 'E2',
 		summary: 'Work jeans OR Work shirt',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Blue jean work pants size 34/34', 'any color long sleeve Carhartt shirt size XL']
-	},
+	},*/
 	/*{
 		giftNumber: 'E3',
 		summary: 'Snow globe OR Book',
