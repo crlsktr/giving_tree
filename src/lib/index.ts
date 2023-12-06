@@ -142,13 +142,13 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Blue jeans size men\'s 32/34 slim', 'New pillows for bed']
 	},
-	{
+	/*{
 		giftNumber: 'E15',
 		summary:
 			'Beanie or Hoodie OR Gift Card',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Golden State Warriors beanie or hoodie size men\'s L', 'Temple Recommend Holder and Swig gift card']
-	},
+	},*/
 	{
 		giftNumber: 'E16',
 		summary: 'Tennis Shoes OR Pillows',
