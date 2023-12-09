@@ -28,7 +28,7 @@ export const presentList: Gift[] = [
 		details: 'Sensory or learning toy for baby 6-12 months'
 	},
 	/*{ giftNumber: 'C1', summary: 'Boys snow pants size 12/14', details: 'No preferences' },*/
-	{ giftNumber: 'C2', summary: 'Toy for 8-year-old boy', details: 'He likes Pokemon and Legos' },
+	/*{ giftNumber: 'C2', summary: 'Toy for 8-year-old boy', details: 'He likes Pokemon and Legos' },*/
 	/*{ giftNumber: 'C3', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },*/
 	/*{
 		giftNumber: 'C4',
@@ -130,12 +130,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Book - "CNA Study Guide" by Dr. Andrew Stapleton', 'Full size sheet set']
 	},*/
-	{
+	/*{
 		giftNumber: 'E13',
 		summary: 'Gift card OR men\'s shirt',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Gift card to the movies', 'Utah Jazz shirt size men\'s large']
-	},
+	},*/
 	{
 		giftNumber: 'E14',
 		summary: 'Jeans OR Pillows',
