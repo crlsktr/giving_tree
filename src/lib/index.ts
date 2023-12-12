@@ -71,10 +71,10 @@ export const presentList: Gift[] = [
 		summary: 'Travel mug OR Beanie and Gloves',
 		details: 'Please choose just one of the options for this gift',
 		options: [
-			'Insulated travel mug (for taking hot chocolate to work)',*/
+			'Insulated travel mug (for taking hot chocolate to work)',
 			'warm beanie and insulated work gloves'
 		]
-	},
+	},*/
 	/*{
 		giftNumber: 'E2',
 		summary: 'Work jeans OR Work shirt',
