@@ -35,7 +35,7 @@ export const presentList: Gift[] = [
 		summary: 'Toy for 5-year-old girl',
 		details: 'She likes Pokemon, puzzles, and Nerf'
 	},*/
-	{ giftNumber: 'C5', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },
+	/*{ giftNumber: 'C5', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },*/
 	/*{
 		giftNumber: 'C6',
 		summary: 'Toy for 5-year-old girl',
@@ -65,13 +65,13 @@ export const presentList: Gift[] = [
 	{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },
 	{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },
 	/*{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },*/
-	{ giftNumber: 'D9', summary: 'Queen size comforter', details: 'Her favorite color is yellow.' },
-	{
+	/*{ giftNumber: 'D9', summary: 'Queen size comforter', details: 'Her favorite color is yellow.' },*/
+	/*{
 		giftNumber: 'E1',
 		summary: 'Travel mug OR Beanie and Gloves',
 		details: 'Please choose just one of the options for this gift',
 		options: [
-			'Insulated travel mug (for taking hot chocolate to work)',
+			'Insulated travel mug (for taking hot chocolate to work)',*/
 			'warm beanie and insulated work gloves'
 		]
 	},
@@ -112,18 +112,18 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Swig gift card', "Crocs size 8 women's"]
 	},
-	{
+	/*{
 		giftNumber: 'E10',
 		summary: 'Bed sheets OR Shacket',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Full size sheet set', 'Shacket size M']
-	},
-	{
+	},*/
+	/*{
 		giftNumber: 'E11',
 		summary: 'Book OR Scarf',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Book - "Under the Cover Mercy" by Rebecca Connolly', 'Ravenclaw scarf and beanie']
-	},
+	},*/
 	/*{
 		giftNumber: 'E12',
 		summary: 'Book OR Bed Sheets',
