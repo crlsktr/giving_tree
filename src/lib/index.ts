@@ -12,21 +12,21 @@ export const presentList: Gift[] = [
 		summary: 'Book for 10 year old boy',
 		details: 'He would like a nonfiction book and is interested in astronomy and animals'
 	},*/
-	{
+	/*{
 		giftNumber: 'B2',
 		summary: 'Clothes for 10 year old boy',
 		details: 'He needs shirts and Levis. He wears size 10 shirts and size 10 slim pants.'
-	},
+	},*/
 	/*{
 		giftNumber: 'B3',
 		summary: 'Outfits for infant boy',
 		details: 'He wears size 2T and needs winter outfits and PJ'
 	},*/
-	{
+	/*{
 		giftNumber: 'B4',
 		summary: 'Baby toy',
 		details: 'Sensory or learning toy for baby 6-12 months'
-	},
+	},*/
 	/*{ giftNumber: 'C1', summary: 'Boys snow pants size 12/14', details: 'No preferences' },*/
 	/*{ giftNumber: 'C2', summary: 'Toy for 8-year-old boy', details: 'He likes Pokemon and Legos' },*/
 	/*{ giftNumber: 'C3', summary: 'Girls snow pants size 6/6x', details: 'No preferences' },*/
@@ -46,12 +46,12 @@ export const presentList: Gift[] = [
 		summary: 'Toy for 8-year-old boy',
 		details: 'He likes Fortnite, Minecraft and Harry Potter'
 	},*/
-	{
+	/*{
 		giftNumber: 'D2',
 		summary: 'Clothes for 8-year-old boy',
 		details:
 			'He wears size 5/6 boys and needs shirts and pants. His favorite color is green and he likes Harry Potter, Fortnite, and Minecraft'
-	},
+	},*/
 	/*{
 		giftNumber: 'D3',
 		summary: 'Toy for toddler girl',
@@ -62,7 +62,7 @@ export const presentList: Gift[] = [
 		summary: 'Warm winter clothes for toddler girl',
 		details: 'She wears size 18 months and needs long-sleeved winter outfits.'
 	},*/
-	{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },
+	/*{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },*/
 	{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },
 	/*{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },*/
 	/*{ giftNumber: 'D9', summary: 'Queen size comforter', details: 'Her favorite color is yellow.' },*/
@@ -87,12 +87,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Nativity snow globe', 'Book - "Heart to Heart" by Russell M Nelson']
 	},*/
-	{
+	/*{
 		giftNumber: 'E4',
 		summary: 'Food processor OR Heating pad',
 		details: 'Please choose just one of the options for this gift',
 		options: ['8-cup food processor ', 'Heating pad']
-	},
+	},*/
 	{
 		giftNumber: 'E6',
 		summary: 'Bike helmet OR twin sheet set',
@@ -136,12 +136,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Gift card to the movies', 'Utah Jazz shirt size men\'s large']
 	},*/
-	{
+	/*{
 		giftNumber: 'E14',
 		summary: 'Jeans OR Pillows',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Blue jeans size men\'s 32/34 slim', 'New pillows for bed']
-	},
+	},*/
 	/*{
 		giftNumber: 'E15',
 		summary:
@@ -149,12 +149,12 @@ export const presentList: Gift[] = [
 		details: 'Please choose just one of the options for this gift',
 		options: ['Golden State Warriors beanie or hoodie size men\'s L', 'Temple Recommend Holder and Swig gift card']
 	},*/
-	{
+	/*{
 		giftNumber: 'E16',
 		summary: 'Tennis Shoes OR Pillows',
 		details: 'Please choose just one of the options for this gift',
 		options: ['Tennis shoes size men\'s 12 wide', 'New pillows for bed']
-	},
+	},*/
 	/*{
 		giftNumber: 'F1',
 		summary: 'Size 6 Diapers',
