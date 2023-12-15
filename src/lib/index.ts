@@ -63,7 +63,7 @@ export const presentList: Gift[] = [
 		details: 'She wears size 18 months and needs long-sleeved winter outfits.'
 	},*/
 	/*{ giftNumber: 'D5', summary: 'Newborn hats or sleep sacks', details: 'Any color for baby boy.' },*/
-	{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },
+	/*{ giftNumber: 'D6', summary: 'Bottles and binkies for newborn', details: 'No preferences' },*/
 	/*{ giftNumber: 'D7', summary: 'Kansas City Chiefs baseball hat', details: 'No preferences' },*/
 	/*{ giftNumber: 'D9', summary: 'Queen size comforter', details: 'Her favorite color is yellow.' },*/
 	/*{
@@ -160,11 +160,11 @@ export const presentList: Gift[] = [
 		summary: 'Size 6 Diapers',
 		details: 'Huggies brand is preferred due to sensitive skin'
 	},*/
-	{
+	/*{
 		giftNumber: 'F2',
 		summary: 'Puramino Hypoallergenic Formula',
 		details: 'PLEASE NOTE this gift exceeds the $50 limit'
-	},
+	},*/
 	/*{ giftNumber: 'F3', summary: 'Baby toy', details: 'He is about 10 months old.' }*/
 ];
 
