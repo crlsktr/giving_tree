@@ -28,10 +28,8 @@
 		<div class="py-6 px-8 text-base">
 			<!-- <p class="h4 text-center p-4"></p> -->
 			<p class="text-justify p-4 max-w-prose">We're trying something new, so please click the "About" button on the left to read more about how we're doing Giving Tree this year!</p>
-			<p class="text-justify p-4 max-w-prose">When you're ready, you can sign up to donate by selecting gifts below and clicking "Give".</p>
-			<p class="text-justify p-4 max-w-prose">Thanks for your help!	</p>
-			
-
+			<p class="text-justify p-4 max-w-prose">When you're ready, you can sign up to donate by clicking "Give".</p>
+			<p class="text-justify p-4 max-w-prose">Thanks for your help!</p>
 		</div>
 	</div>
 	<hr />
@@ -58,7 +56,7 @@
 			<section >
 				<ListBox multiple>
 					{#each present.options as option}	
-					<div class="block card card-hover">
+					<div class="block card">
 							<header class="card-header">${option.dollarAmount}</header>
 							<section class="p-4"></section>
 					</div>
