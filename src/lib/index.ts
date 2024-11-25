@@ -38,7 +38,7 @@ export const signupEmailSubject: string = 'Giving Tree 2024';
 export const signupMessage: string =
 	'Hi%21%20I%20want%20to%20help%20out%20with%20this%20gift%21%0AMy%20Name%3A%0AMy%20Phone%20Number%3A%0AGift%20Cards%20%28Please%20specify%20how%20many%20individual%20%2415%20cards%29%0A-%20Walmart%3A%0A-%20Amazon%3A%0A-%20Visa%3A%20';
 export const welcomeMessage: string =
-	'something';
+	'Thanks for checking out our Giving Tree!';
 export const coordinatorEmail: string = 'ifergej0b@mozmail.com';
 export const giftDollarLimit: number = 50;
 export const apptitle: string = '12th Ward Giving Tree 2024';

@@ -59,7 +59,7 @@
 						/>
 					</svg>
 				</div>
-				<span>Guidelines</span>
+				<span>About</span>
 			</AppRailAnchor>
 			<!-- --- -->
 			<svelte:fragment slot="trail">
