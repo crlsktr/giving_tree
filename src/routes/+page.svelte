@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { writable } from "svelte/store";
+
 	import { assets } from '$app/paths';
 	import {
 		coordinatorEmail,
@@ -7,35 +9,26 @@
 		signupMessage,
 		welcomeMessage
 	} from '$lib';
-	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
+	import { Accordion, AccordionItem, ListBox, ListBoxItem } from '@skeletonlabs/skeleton';
+	let cardlist:string[] = []
 </script>
 
 <figure>
 	<div class="min-w-full text-center relative">
 		<img
-			class="max-h-96 min-w-full object-none opacity-50"
-			src="{assets}/firleaves.avif"
+			class="max-h-72 min-w-full object-cover object-left-top opacity-50"
+			src="{assets}/present.avif"
 			alt="evergreen branches"
 		/>
-		<h2 class="h2 centered-title bg-surface-900">{welcomeMessage}</h2>
+		<h2 class="h1 centered-title bg-surface-900">{welcomeMessage}</h2>
 	</div>
 </figure>
-<div class="container flex flex-col">
+<div class="flex flex-col">
 	<div class="flex flex-row justify-center">
-		<div class="py-6 px-8">
-			<ol class="list-decimal">
-				<li>Browse the list of gifts below that are still needed.</li>
-				<li>Click on any gift to see its details.</li>
-				<li>
-					When you're ready, click the <span class="text-primary-500">"I want to give this"</span> button
-					to claim the gift.
-				</li>
-				<li>
-					This will start an email to Sis. Jorri García. Fill it out with your details and send it.
-				</li>
-				<li>You will receive a reply confirming that you are signed up for the chosen gift.</li>
-			</ol>
-			<p class="py-10">Note: Please don't change the gift number in the last line of your email</p>
+		<div class="py-6 px-8 text-base">
+			<p class="h4 text-center p-4">Thanks for checking out our Giving Tree! </p>
+			<p class="text-justify p-4 max-w-prose">This year you will notice it looks a bit different. After talking with the families that we wanted to help, we decided to collect gift cards for them instead of gifts. This way they can have the experience of shopping for their loved ones and picking out something special for them. Your generosity this season will help families twice as much as they experience the joy of giving as well as receiving something special on Christmas Day. Please reach out with any questions or sign up for the gift cards and amounts you can donate below. Thanks so much for sharing your blessings during this special time of year!</p>
+
 		</div>
 	</div>
 	<hr />
@@ -43,7 +36,7 @@
 		{#each presentList as present, idx}
 			<AccordionItem
 				class="border rounded-md w-full max-w-4xl border-tertiary-800 bg-surface-600"
-				open={idx === 0}
+				open={true}
 			>
 				<svelte:fragment slot="lead"
 					><svg
@@ -60,32 +53,30 @@
 				>
 				<svelte:fragment slot="summary"
 					><span class="text-center"
-						>{present.summary} {present.options ? '(please choose one)' : ''}</span
+						>{present.summary}</span
 					></svelte:fragment
 				>
 				<svelte:fragment slot="content">
-					{#if !present.options}
-						<div class="card text-center text-md flex flex-row place-content-between">
-							<span class="p-4">{present.details}</span>
-						</div>
-					{:else}
+					<ListBox multiple>
 						{#each present.options as option}
-							<div class="card text-center text-md flex flex-row place-content-between">
-								<span class="p-4">{option}</span>
-							</div>
-						{/each}
-					{/if}
+						<ListBoxItem bind:group={cardlist} name={present.summary + option.dollarAmount} value={present.details + " " + option.dollarAmount} hover="hover:variant-ringed-primary">
+								<svelte:fragment slot="lead">${option.dollarAmount}</svelte:fragment>
+								<svelte:fragment slot="trail"></svelte:fragment>
+						</ListBoxItem>
+						
+					{/each}
+					</ListBox>
 
-					<a
-						class="btn btn-md variant-filled-primary"
-						target="_blank"
-						href="mailto:{coordinatorEmail}?body={signupMessage +
-							present.giftNumber}&subject={signupEmailSubject}">I want to give this!</a
-					>
+					
 				</svelte:fragment>
 			</AccordionItem>
 		{/each}
 	</Accordion>
+	<a
+		class="btn btn-md variant-filled-primary"
+		target="_blank"
+		href="mailto:{coordinatorEmail}?body={signupMessage}&subject={signupEmailSubject}">I want to give this!</a
+	>
 </div>
 
 <style lang="postcss">
@@ -99,8 +90,5 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		@apply bg-primary-700/80 rounded-md;
-	}
-	li {
-		@apply mb-2;
 	}
 </style>
